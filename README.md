@@ -32,11 +32,12 @@ After execution, the first file should contain it's orginal content and also the
 > $ cat file2.txt
 >> Hello World! This is file two.
 >
-> $ ./lab04 file1.txt file2.txt\n
+> $ ./lab04 file1.txt file2.txt
 >
 >
 > $ cat file1.txt
 >> Hello World! This is file one.
+>>
 >> Hello World! This is file two.
 >
 > $ cat file2.txt
