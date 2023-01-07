@@ -22,19 +22,21 @@ Write a program in C that concatenates the contents of one file to another file.
 
 - Check if the names of the file are the same (e.g. './lab04 file1 file1), if so print an error message and then exit.
 
-After execution, the first file will contain it's orginal content and also the contents of the second file. The second file remains unmodified.
+After execution, the first file should contain it's orginal content and also the contents of the second file. The second file remains unmodified.
+
+## Example:
 
 > $ cat file1
-> Hello World! This is file one.
+>> Hello World! This is file one.
 >
 > $ cat file2
-> Hello World! This is file two.
+>> Hello World! This is file two.
 >
 > $ ./lab04 file1 file2
 >
 > $ cat file1
-> Hello World! This is file one.
-> Hello World! This is file two.
+>> Hello World! This is file one.
+>> Hello World! This is file two.
 >
 > $ cat file2
-> Hello World! This is file two.
+>> Hello World! This is file two.
