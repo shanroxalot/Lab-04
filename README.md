@@ -20,9 +20,13 @@ Write a program in C that concatenates the contents of one file to another file.
 
 - The contents of the second file should be concatenated to the contents of the first file.
 
-- Check if the names of the file are the same (e.g. './lab04 file1 file1), if so print an error message and then exit.
+- **Check if the names of the file are the same (e.g. './lab04 file1 file1), if so print an error message and then exit.**
 
-After execution, the first file should contain it's orginal content and also the contents of the second file. The second file remains unmodified.
+After execution, 
+
+- The first file should contain it's orginal content and also the contents of the second file. 
+
+- The second file remains unmodified.
 
 ## Example:
 
