@@ -14,7 +14,7 @@ Date: ____________
 
 Write a program in C that concatenates the contents of one file to another file.
 
-- Do not use the fputs() or fputc() functions. You should use a combination of the lseek() and the open() functions.
+- Do not use the fputs() or fputc() functions. You should use a combination of the lseek() and the open() functions or just open() function.
 
 - The names of the files should be provided as command-line arguments.
 
